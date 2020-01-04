@@ -32,6 +32,8 @@ import org.springframework.cglib.core.internal.LoadingCache;
  * In addition to caching generated classes for performance, it provides hooks for
  * customizing the <code>ClassLoader</code>, name of the generated class, and transformations
  * applied before generation.
+ *
+ * test
  */
 @SuppressWarnings({"rawtypes", "unchecked"})
 abstract public class AbstractClassGenerator<T> implements ClassGenerator {
